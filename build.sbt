@@ -7,7 +7,7 @@ organization := "io.prediction"
 val mahoutVersion = "0.11.1"
 
 libraryDependencies ++= Seq(
-  "io.prediction"    %% "core" % pioVersion.value % "provided",
+  "org.apache.predictionio" %% "core" % pioVersion.value % "provided",
   "org.apache.spark" %% "spark-core" % "1.3.0" % "provided",
   "org.apache.spark" %% "spark-mllib" % "1.3.0" % "provided",
   "org.xerial.snappy" % "snappy-java" % "1.1.1.7",
